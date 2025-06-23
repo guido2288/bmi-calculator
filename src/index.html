@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Body Mass Index Calculator</title>
+</head>
+<body>
+
+  <section class="hero-container">
+
+    <div class="description-hero">
+      <img src="./assets/images/logo.svg" alt="logo">
+      <div class="hero-text">
+        <h1>Body Mass Index Calculator</h1>
+        <p>Better understand your weight in relation to your height using our body mass index (BM) calculator. While BMI is not the sole determinant of a healthy weight, it offers a valuable starting point to evaluate your overall health and well-being.</p>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <h3>Enter your details below</h3>
+      <form >
+        <div class="form-radio">
+
+          <div class="radio-container">
+            <input type="radio" name="type" id="metric">
+            <label >Metric</label>
+          </div>
+
+          <div class="radio-container">
+            <input type="radio" name="type" id="imperial">
+            <label >Imperial</label>
+          </div>
+
+        </div>
+
+        <div class="metrics-container">
+          <div class="metrics-input">
+            <label for="cm">Height</label>  
+            <input type="number" placeholder="0" id="cm">
+            <span>cm</span>
+          </div>
+          <div class="metrics-input">
+            <label for="kg">Weight</label>  
+            <input type="number" placeholder="0" id="kg">
+            <span>kg</span>
+          </div>
+        </div>
+
+        <div class="result-display">
+          <h3>Welcome!</h3>
+          <p>Enter your height and weight and you’ll see your BMI result here</p>
+        </div>
+
+      </form>
+    </div>
+
+  </section>
+
+
+
+</body>
+</html>
