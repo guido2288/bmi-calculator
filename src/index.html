@@ -27,12 +27,12 @@
         <div class="form-radio">
 
           <div class="radio-container">
-            <input type="radio" name="type" id="metric">
+            <input type="radio" name="type" id="metric" value="metric" checked>
             <label >Metric</label>
           </div>
 
           <div class="radio-container">
-            <input type="radio" name="type" id="imperial">
+            <input type="radio" name="type" id="imperial" value="imperial">
             <label >Imperial</label>
           </div>
 
@@ -41,13 +41,13 @@
         <div class="metrics-container">
           <div class="metrics-input">
             <label for="cm">Height</label>  
-            <input type="number" placeholder="0" id="cm">
-            <span>cm</span>
+            <input type="number" id="inputHeight" placeholder="0">
+            <span id="heightDisplay">cm</span>
           </div>
           <div class="metrics-input">
             <label for="kg">Weight</label>  
-            <input type="number" placeholder="0" id="kg">
-            <span>kg</span>
+            <input type="number"  placeholder="0" id="inputWeight">
+            <span id="weightDisplay">kg</span>
           </div>
         </div>
 
@@ -152,6 +152,6 @@
 
   </section>
 
-
+  <script src="./script.js"></script>
 </body>
 </html>
